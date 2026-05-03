@@ -57,7 +57,42 @@ The score should stay explainable. Each output row should make it clear why a do
 
 ## Project Status
 
-This repository currently contains the project idea and early product documentation. No runnable implementation exists yet.
+This repository currently contains the project idea, early product documentation, and a clean Python-oriented project scaffold. No runnable screener implementation exists yet.
+
+## Repository Structure
+
+```text
+.
+|-- docs/
+|   |-- PRD.md
+|   |-- WORKFLOW.md
+|   `-- domain-investment-screener-idea.md
+|-- data/
+|   |-- samples/
+|   |-- raw/
+|   `-- processed/
+|-- outputs/
+|-- scripts/
+|-- src/domain_screener/
+|-- tests/
+|-- README.md
+|-- pyproject.toml
+`-- AGENTS.md
+```
+
+## Key Docs
+
+- [Product requirements](docs/PRD.md)
+- [Workflow overview](docs/WORKFLOW.md)
+- [Original project idea](docs/domain-investment-screener-idea.md)
+
+## Local Setup
+
+No application command exists yet. Once implementation begins, install the planned Python package and dev tools with:
+
+```powershell
+python -m pip install -e .[dev]
+```
 
 ## Suggested MVP Roadmap
 
